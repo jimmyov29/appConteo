@@ -1,0 +1,28 @@
+^C:\USERS\JIMMY\DESKTOP\DOCUMENTOS\FLUTTER\APP\BUILD\WINDOWS\CMAKEFILES\19EF40E7463938E378B2E432814F0BA3\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter_windows_3.10.2-stable\flutter PROJECT_DIR=C:\Users\jimmy\Desktop\Documentos\flutter\app FLUTTER_ROOT=C:\src\flutter_windows_3.10.2-stable\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\jimmy\Desktop\Documentos\flutter\app\windows\flutter\ephemeral PROJECT_DIR=C:\Users\jimmy\Desktop\Documentos\flutter\app FLUTTER_TARGET=C:\Users\jimmy\Desktop\Documentos\flutter\app\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC85MGZhM2FlMjhmZTZkZGFlZTFhZjJjMTIwZjAxZTUwMjAxYzE0MDFiLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\jimmy\Desktop\Documentos\flutter\app\.dart_tool\package_config.json C:/src/flutter_windows_3.10.2-stable/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JIMMY\DESKTOP\DOCUMENTOS\FLUTTER\APP\BUILD\WINDOWS\CMAKEFILES\0DB8583F4D72B7B3E9FF0F270944DB96\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JIMMY\DESKTOP\DOCUMENTOS\FLUTTER\APP\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/jimmy/Desktop/Documentos/flutter/app/windows -BC:/Users/jimmy/Desktop/Documentos/flutter/app/build/windows --check-stamp-file C:/Users/jimmy/Desktop/Documentos/flutter/app/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
